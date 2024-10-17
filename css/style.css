@@ -1,0 +1,183 @@
+/* All Pages */
+
+nav {
+    background-color: #082b59;
+    border-bottom: solid 10px #d98555; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20pxf;
+    flex-wrap: wrap; 
+}
+.logo {
+    margin-left:15px;
+
+}
+.navbar {
+    color: #f2f2f2;
+    font-family: "Poppins Bold", Arial, sans-serif;
+    text-decoration:none;
+    float:right;
+    padding:15px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+a {
+    text-decoration:none;
+    color: #d98555;
+}
+a:hover {
+    text-decoration-line: underline;
+}
+
+.button{
+    text-align:center;
+    font-family: Lato, Arial, sans-serif;
+}
+.button a {
+    padding: 14px 25px;
+    margin: 10px auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: solid;
+}
+.button a:hover {
+    background-color:#d98555;
+    color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    color: #082b59;
+    font-family: "Poppins Bold", Arial, sans-serif;
+}
+h2 {
+    font-weight: lighter;
+    text-align: center;
+    margin: 30pt;
+    font-family: Lato, Arial, sans-serif;  
+}
+h3 {
+    font-weight: lighter;
+    text-align: center;
+    margin: 30pt;
+    font-family: Lato, Arial, sans-serif;
+}
+h4 {
+    font-weight: lighter;
+    text-align: center;
+    margin: 30pt;
+    font-family: Lato, Arial, sans-serif;  
+}
+
+footer {
+    text-align: center;
+    background-color: #082b59;
+    color:#f2f2f2;
+    padding: 20px;
+    border-top: solid 10px #d98555;
+
+}
+
+/* Home Page */
+
+
+
+/* About Page */
+
+#heroimage {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+
+.pourover {
+    background-color:#d98555;
+    color: #f2f2f2;
+    display: flex;
+    align-items: center;
+}
+
+.pourover img {
+    max-width: 100%;
+    display: block;
+    margin-right:20px;
+}
+
+.pourover h1 {
+    margin: 20pt;
+    color:#f2f2f2;
+    text-align: center;
+    flex: 1;
+    font-family: "Poppins Bold", Arial, sans-serif;
+}
+
+/* Products Page */
+
+
+.productphoto {
+    display: inline-block;
+    width: 100%;
+    object-fit:cover;
+}
+td {
+    display: table-cell;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    vertical-align:top;
+}
+
+.productcaption {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Lato, Arial, sans-serif;
+    color:#082b59;
+}
+
+.productdescription {
+    text-align:center;
+    font-family: Lato, Arial, sans-serif;
+}
+/* Responsive CSS */
+
+@media (max-width: 750px) {
+    .pourover {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    .pourover img {
+        margin-right: 0;
+        margin-bottom: 20px; 
+    }
+    table {
+        width: 100%;
+    }
+
+    /* Stack the table rows */
+    tr {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    td {
+        display: block; 
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .productphoto {
+        width: 80%; 
+        margin: 0 auto;
+    }
+}
+
+
